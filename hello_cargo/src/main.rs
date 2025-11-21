@@ -1,11 +1,7 @@
 fn main() {
-    let mut s = String::from("tejas");
-    s.push_str(", gauri!");
-    println!("val is: {s}");
-}
-
-fn adad(val: i32, lab: char){
-    println!("measure is: {val}{lab}");
+    let s1 = String::from("hello");
+    let s2 = s1;
+    println!("{s1}, qwqw!")
 }
 
 
