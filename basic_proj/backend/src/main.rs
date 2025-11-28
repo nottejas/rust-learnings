@@ -31,5 +31,19 @@ fn main(){
         return;
     }
 
-    
+    // start server and print port
+    let listener = TcpListener::bind(format!("0.0.0.0:8080")).unwrap();
+    print!("Server lis on 8080");
+
+    for stream in listener.incoming()   {
+        match stream {
+            Ok(stream) => {
+                handle_client(stream);
+            }
+            Err(e) => {
+                print!("Unable to connect: {}", e)
+            }
+        }
+    }
+
 }
