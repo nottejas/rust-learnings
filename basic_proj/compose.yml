@@ -1,4 +1,16 @@
 services:
+  rustapp:
+    container_name: rustapp
+    image: nottejas/rustapp:latest
+    build: 
+      context: ./backend
+      dockerfile: rust.dockerfile
+      args:
+        DATABASE_URL: postgres://postgres:postgres@db:5432/postgres
+    ports:
+      - 8005:8080
+    depends_on:
+      - db
   db:
     container_name: db
     image: postgres:13
