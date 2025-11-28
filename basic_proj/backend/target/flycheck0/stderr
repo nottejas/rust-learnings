@@ -1,0 +1,1931 @@
+   0.593203200s  INFO prepare_target{force=false package_id=backend v0.1.0 (\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend) target="backend"}: cargo::core::compiler::fingerprint: fingerprint error for backend v0.1.0 (\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend)/Check { test: false }/TargetInner { name: "backend", doc: true, ..: with_path("\\\\wsl.localhost\\Ubuntu\\home\\nottejas\\rust_projs\\basic_proj\\backend\\src\\main.rs", Edition2024) }
+   0.593339100s  INFO prepare_target{force=false package_id=backend v0.1.0 (\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend) target="backend"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\backend-8cbcb4c4f963259a\bin-backend`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.627998600s  INFO prepare_target{force=false package_id=postgres v0.19.12 target="postgres"}: cargo::core::compiler::fingerprint: fingerprint error for postgres v0.19.12/Check { test: false }/TargetInner { ..: lib_target("postgres", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\postgres-0.19.12\\src\\lib.rs", Edition2021) }
+   0.628071400s  INFO prepare_target{force=false package_id=postgres v0.19.12 target="postgres"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\postgres-b9d2024f11955a92\lib-postgres`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.689436400s  INFO prepare_target{force=false package_id=tokio v1.48.0 target="tokio"}: cargo::core::compiler::fingerprint: fingerprint error for tokio v1.48.0/Check { test: false }/TargetInner { ..: lib_target("tokio", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tokio-1.48.0\\src\\lib.rs", Edition2021) }
+   0.689487300s  INFO prepare_target{force=false package_id=tokio v1.48.0 target="tokio"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\tokio-c5a0755108664921\lib-tokio`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.713383700s  INFO prepare_target{force=false package_id=socket2 v0.6.1 target="socket2"}: cargo::core::compiler::fingerprint: fingerprint error for socket2 v0.6.1/Check { test: false }/TargetInner { ..: lib_target("socket2", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\socket2-0.6.1\\src\\lib.rs", Edition2021) }
+   0.713424900s  INFO prepare_target{force=false package_id=socket2 v0.6.1 target="socket2"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\socket2-e3a89a5d7fb9330d\lib-socket2`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.717472600s  INFO prepare_target{force=false package_id=windows-sys v0.60.2 target="windows_sys"}: cargo::core::compiler::fingerprint: fingerprint error for windows-sys v0.60.2/Check { test: false }/TargetInner { tested: false, doctest: false, ..: lib_target("windows_sys", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows-sys-0.60.2\\src\\lib.rs", Edition2021) }
+   0.717534300s  INFO prepare_target{force=false package_id=windows-sys v0.60.2 target="windows_sys"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\windows-sys-855029f0a8606954\lib-windows_sys`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.719752900s  INFO prepare_target{force=false package_id=windows-targets v0.53.5 target="windows_targets"}: cargo::core::compiler::fingerprint: fingerprint error for windows-targets v0.53.5/Check { test: false }/TargetInner { ..: lib_target("windows_targets", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows-targets-0.53.5\\src\\lib.rs", Edition2021) }
+   0.719783100s  INFO prepare_target{force=false package_id=windows-targets v0.53.5 target="windows_targets"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\windows-targets-49f4081cb23f0d18\lib-windows_targets`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.723130400s  INFO prepare_target{force=false package_id=windows_x86_64_msvc v0.53.1 target="windows_x86_64_msvc"}: cargo::core::compiler::fingerprint: fingerprint error for windows_x86_64_msvc v0.53.1/Check { test: false }/TargetInner { ..: lib_target("windows_x86_64_msvc", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows_x86_64_msvc-0.53.1\\src\\lib.rs", Edition2021) }
+   0.723179800s  INFO prepare_target{force=false package_id=windows_x86_64_msvc v0.53.1 target="windows_x86_64_msvc"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\windows_x86_64_msvc-2ace87c4d010f1aa\lib-windows_x86_64_msvc`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.746895400s  INFO prepare_target{force=false package_id=windows_x86_64_msvc v0.53.1 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for windows_x86_64_msvc v0.53.1/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows_x86_64_msvc-0.53.1\\build.rs", Edition2021) }
+   0.746943800s  INFO prepare_target{force=false package_id=windows_x86_64_msvc v0.53.1 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\windows_x86_64_msvc-0864289754573314\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_libgit2_prerelease
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+   0.748513900s  INFO prepare_target{force=false package_id=windows_x86_64_msvc v0.53.1 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for windows_x86_64_msvc v0.53.1/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows_x86_64_msvc-0.53.1\\build.rs", Edition2021) }
+   0.748548600s  INFO prepare_target{force=false package_id=windows_x86_64_msvc v0.53.1 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\windows_x86_64_msvc-9b7be962915628f9\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_libgit2_prerelease
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+   0.760433600s  INFO prepare_target{force=false package_id=tokio-postgres v0.7.15 target="tokio_postgres"}: cargo::core::compiler::fingerprint: fingerprint error for tokio-postgres v0.7.15/Check { test: false }/TargetInner { tested: false, ..: lib_target("tokio_postgres", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tokio-postgres-0.7.15\\src\\lib.rs", Edition2021) }
+   0.760476600s  INFO prepare_target{force=false package_id=tokio-postgres v0.7.15 target="tokio_postgres"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\tokio-postgres-834ac5efd96763af\lib-tokio_postgres`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.763635400s  INFO prepare_target{force=false package_id=async-trait v0.1.89 target="async_trait"}: cargo::core::compiler::fingerprint: fingerprint error for async-trait v0.1.89/Build/TargetInner { for_host: true, proc_macro: true, ..: lib_target("async_trait", ["proc-macro"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\async-trait-0.1.89\\src\\lib.rs", Edition2021) }
+   0.763692600s  INFO prepare_target{force=false package_id=async-trait v0.1.89 target="async_trait"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\async-trait-ae294a97247d5ca6\lib-async_trait`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.766987700s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.103 target="proc_macro2"}: cargo::core::compiler::fingerprint: fingerprint error for proc-macro2 v1.0.103/Build/TargetInner { ..: lib_target("proc_macro2", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\proc-macro2-1.0.103\\src\\lib.rs", Edition2021) }
+   0.767028900s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.103 target="proc_macro2"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\proc-macro2-3dd8df4566541d40\lib-proc_macro2`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.788382800s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.103 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for proc-macro2 v1.0.103/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\proc-macro2-1.0.103\\build.rs", Edition2021) }
+   0.788426400s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.103 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\proc-macro2-d397f9928fbd58b2\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.789896300s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.103 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for proc-macro2 v1.0.103/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\proc-macro2-1.0.103\\build.rs", Edition2021) }
+   0.789922200s  INFO prepare_target{force=false package_id=proc-macro2 v1.0.103 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\proc-macro2-8c6f04521555d3d2\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.809723200s  INFO prepare_target{force=false package_id=quote v1.0.42 target="quote"}: cargo::core::compiler::fingerprint: fingerprint error for quote v1.0.42/Build/TargetInner { ..: lib_target("quote", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\quote-1.0.42\\src\\lib.rs", Edition2018) }
+   0.809759000s  INFO prepare_target{force=false package_id=quote v1.0.42 target="quote"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\quote-a5fc88b8c47084ed\lib-quote`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.831044500s  INFO prepare_target{force=false package_id=quote v1.0.42 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for quote v1.0.42/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\quote-1.0.42\\build.rs", Edition2018) }
+   0.831084500s  INFO prepare_target{force=false package_id=quote v1.0.42 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\quote-776391909d1f9746\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.833359600s  INFO prepare_target{force=false package_id=quote v1.0.42 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for quote v1.0.42/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\quote-1.0.42\\build.rs", Edition2018) }
+   0.833416400s  INFO prepare_target{force=false package_id=quote v1.0.42 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\quote-529f8dbcd0aede73\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.844293400s  INFO prepare_target{force=false package_id=syn v2.0.111 target="syn"}: cargo::core::compiler::fingerprint: fingerprint error for syn v2.0.111/Build/TargetInner { ..: lib_target("syn", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\syn-2.0.111\\src\\lib.rs", Edition2021) }
+   0.844331300s  INFO prepare_target{force=false package_id=syn v2.0.111 target="syn"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\syn-f15dd8efbc83c1dc\lib-syn`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.856904500s  INFO prepare_target{force=false package_id=parking_lot v0.12.5 target="parking_lot"}: cargo::core::compiler::fingerprint: fingerprint error for parking_lot v0.12.5/Check { test: false }/TargetInner { ..: lib_target("parking_lot", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\parking_lot-0.12.5\\src\\lib.rs", Edition2021) }
+   0.856953000s  INFO prepare_target{force=false package_id=parking_lot v0.12.5 target="parking_lot"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\parking_lot-33909b00fd6e7f22\lib-parking_lot`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.870762400s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="parking_lot_core"}: cargo::core::compiler::fingerprint: fingerprint error for parking_lot_core v0.9.12/Check { test: false }/TargetInner { ..: lib_target("parking_lot_core", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\parking_lot_core-0.9.12\\src\\lib.rs", Edition2021) }
+   0.870807600s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="parking_lot_core"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\parking_lot_core-1e79fb016d34c4db\lib-parking_lot_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.898165500s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for parking_lot_core v0.9.12/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\parking_lot_core-0.9.12\\build.rs", Edition2021) }
+   0.898235900s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\parking_lot_core-4d1a1fc4f09b356d\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.900625800s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for parking_lot_core v0.9.12/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\parking_lot_core-0.9.12\\build.rs", Edition2021) }
+   0.900665800s  INFO prepare_target{force=false package_id=parking_lot_core v0.9.12 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\parking_lot_core-ae5eb7cd066c91d0\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.943553100s  INFO prepare_target{force=false package_id=postgres-protocol v0.6.9 target="postgres_protocol"}: cargo::core::compiler::fingerprint: fingerprint error for postgres-protocol v0.6.9/Check { test: false }/TargetInner { ..: lib_target("postgres_protocol", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\postgres-protocol-0.6.9\\src\\lib.rs", Edition2021) }
+   0.943606800s  INFO prepare_target{force=false package_id=postgres-protocol v0.6.9 target="postgres_protocol"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\postgres-protocol-59b172ebdbbc5494\lib-postgres_protocol`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.952445900s  INFO prepare_target{force=false package_id=hmac v0.12.1 target="hmac"}: cargo::core::compiler::fingerprint: fingerprint error for hmac v0.12.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hmac", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hmac-0.12.1\\src\\lib.rs", Edition2018) }
+   0.952505700s  INFO prepare_target{force=false package_id=hmac v0.12.1 target="hmac"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\hmac-3bf32d130cfb6e8b\lib-hmac`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.955375100s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint: fingerprint error for digest v0.10.7/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("digest", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\digest-0.10.7\\src\\lib.rs", Edition2018) }
+   0.955424200s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\digest-ab746968d83026fb\lib-digest`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.959610200s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint: fingerprint error for block-buffer v0.10.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("block_buffer", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\block-buffer-0.10.4\\src\\lib.rs", Edition2018) }
+   0.959717900s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\block-buffer-91e18eb0fc3fcf9f\lib-block_buffer`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.962997200s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="generic_array"}: cargo::core::compiler::fingerprint: fingerprint error for generic-array v0.14.7/Check { test: false }/TargetInner { ..: lib_target("generic_array", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\generic-array-0.14.7\\src\\lib.rs", Edition2015) }
+   0.963047700s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="generic_array"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\generic-array-5a59744292a8b15a\lib-generic_array`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   0.986617900s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for generic-array v0.14.7/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\generic-array-0.14.7\\build.rs", Edition2015) }
+   0.986661800s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\generic-array-1715b8b35bd6fd93\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_libgit2_prerelease
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: <unknown>
+  25: git_midx_writer_dump
+  26: git_filter_source_repo
+  27: git_midx_writer_dump
+  28: BaseThreadInitThunk
+  29: RtlUserThreadStart
+   0.988442400s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for generic-array v0.14.7/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\generic-array-0.14.7\\build.rs", Edition2015) }
+   0.988473100s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\generic-array-26e11cedd96322b2\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_libgit2_prerelease
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: <unknown>
+  25: git_midx_writer_dump
+  26: git_filter_source_repo
+  27: git_midx_writer_dump
+  28: BaseThreadInitThunk
+  29: RtlUserThreadStart
+   1.002229000s  INFO prepare_target{force=false package_id=typenum v1.19.0 target="typenum"}: cargo::core::compiler::fingerprint: fingerprint error for typenum v1.19.0/Check { test: false }/TargetInner { ..: lib_target("typenum", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\typenum-1.19.0\\src\\lib.rs", Edition2018) }
+   1.002273600s  INFO prepare_target{force=false package_id=typenum v1.19.0 target="typenum"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\typenum-a29e1c3bbbd97c79\lib-typenum`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_libgit2_prerelease
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+   1.018635700s  INFO prepare_target{force=false package_id=typenum v1.19.0 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for typenum v1.19.0/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\typenum-1.19.0\\build.rs", Edition2018) }
+   1.018679600s  INFO prepare_target{force=false package_id=typenum v1.19.0 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\typenum-44322a450af4c870\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: git_libgit2_prerelease
+  22: <unknown>
+  23: <unknown>
+  24: <unknown>
+  25: <unknown>
+  26: git_midx_writer_dump
+  27: git_filter_source_repo
+  28: git_midx_writer_dump
+  29: BaseThreadInitThunk
+  30: RtlUserThreadStart
+   1.021207300s  INFO prepare_target{force=false package_id=typenum v1.19.0 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for typenum v1.19.0/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\typenum-1.19.0\\build.rs", Edition2018) }
+   1.021255700s  INFO prepare_target{force=false package_id=typenum v1.19.0 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\typenum-bfdb310abef061d5\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: git_libgit2_prerelease
+  22: <unknown>
+  23: <unknown>
+  24: <unknown>
+  25: <unknown>
+  26: git_midx_writer_dump
+  27: git_filter_source_repo
+  28: git_midx_writer_dump
+  29: BaseThreadInitThunk
+  30: RtlUserThreadStart
+   1.031347600s  INFO prepare_target{force=false package_id=crypto-common v0.1.7 target="crypto_common"}: cargo::core::compiler::fingerprint: fingerprint error for crypto-common v0.1.7/Check { test: false }/TargetInner { ..: lib_target("crypto_common", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\crypto-common-0.1.7\\src\\lib.rs", Edition2018) }
+   1.031390300s  INFO prepare_target{force=false package_id=crypto-common v0.1.7 target="crypto_common"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\crypto-common-07f8d85b7bdd6b25\lib-crypto_common`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.041246300s  INFO prepare_target{force=false package_id=md-5 v0.10.6 target="md5"}: cargo::core::compiler::fingerprint: fingerprint error for md-5 v0.10.6/Check { test: false }/TargetInner { ..: lib_target("md5", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\md-5-0.10.6\\src\\lib.rs", Edition2018) }
+   1.041350700s  INFO prepare_target{force=false package_id=md-5 v0.10.6 target="md5"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\md-5-0863587cae38a591\lib-md5`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.049235000s  INFO prepare_target{force=false package_id=rand v0.9.2 target="rand"}: cargo::core::compiler::fingerprint: fingerprint error for rand v0.9.2/Check { test: false }/TargetInner { ..: lib_target("rand", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand-0.9.2\\src\\lib.rs", Edition2021) }
+   1.049278000s  INFO prepare_target{force=false package_id=rand v0.9.2 target="rand"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\rand-0e1fcd861ddd4578\lib-rand`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.051543200s  INFO prepare_target{force=false package_id=rand_chacha v0.9.0 target="rand_chacha"}: cargo::core::compiler::fingerprint: fingerprint error for rand_chacha v0.9.0/Check { test: false }/TargetInner { ..: lib_target("rand_chacha", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand_chacha-0.9.0\\src\\lib.rs", Edition2021) }
+   1.051571900s  INFO prepare_target{force=false package_id=rand_chacha v0.9.0 target="rand_chacha"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\rand_chacha-61a835778b345912\lib-rand_chacha`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.053177800s  INFO prepare_target{force=false package_id=ppv-lite86 v0.2.21 target="ppv_lite86"}: cargo::core::compiler::fingerprint: fingerprint error for ppv-lite86 v0.2.21/Check { test: false }/TargetInner { ..: lib_target("ppv_lite86", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ppv-lite86-0.2.21\\src\\lib.rs", Edition2021) }
+   1.053205000s  INFO prepare_target{force=false package_id=ppv-lite86 v0.2.21 target="ppv_lite86"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\ppv-lite86-28dc336c706745b8\lib-ppv_lite86`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.055521100s  INFO prepare_target{force=false package_id=zerocopy v0.8.30 target="zerocopy"}: cargo::core::compiler::fingerprint: fingerprint error for zerocopy v0.8.30/Check { test: false }/TargetInner { ..: lib_target("zerocopy", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zerocopy-0.8.30\\src\\lib.rs", Edition2021) }
+   1.055572100s  INFO prepare_target{force=false package_id=zerocopy v0.8.30 target="zerocopy"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\zerocopy-0c1716c05ed624cf\lib-zerocopy`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   1.071713600s  INFO prepare_target{force=false package_id=zerocopy v0.8.30 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for zerocopy v0.8.30/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zerocopy-0.8.30\\build.rs", Edition2021) }
+   1.071755700s  INFO prepare_target{force=false package_id=zerocopy v0.8.30 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\zerocopy-a7003472bb3bb060\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_libgit2_prerelease
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: <unknown>
+  25: git_midx_writer_dump
+  26: git_filter_source_repo
+  27: git_midx_writer_dump
+  28: BaseThreadInitThunk
+  29: RtlUserThreadStart
+   1.074033100s  INFO prepare_target{force=false package_id=zerocopy v0.8.30 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for zerocopy v0.8.30/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zerocopy-0.8.30\\build.rs", Edition2021) }
+   1.074068900s  INFO prepare_target{force=false package_id=zerocopy v0.8.30 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\zerocopy-3a1b22bd1c277103\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_libgit2_prerelease
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: <unknown>
+  25: git_midx_writer_dump
+  26: git_filter_source_repo
+  27: git_midx_writer_dump
+  28: BaseThreadInitThunk
+  29: RtlUserThreadStart
+   1.083501500s  INFO prepare_target{force=false package_id=rand_core v0.9.3 target="rand_core"}: cargo::core::compiler::fingerprint: fingerprint error for rand_core v0.9.3/Check { test: false }/TargetInner { ..: lib_target("rand_core", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand_core-0.9.3\\src\\lib.rs", Edition2021) }
+   1.083548200s  INFO prepare_target{force=false package_id=rand_core v0.9.3 target="rand_core"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\rand_core-c0b24b2a07141e2b\lib-rand_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.085570400s  INFO prepare_target{force=false package_id=getrandom v0.3.4 target="getrandom"}: cargo::core::compiler::fingerprint: fingerprint error for getrandom v0.3.4/Check { test: false }/TargetInner { ..: lib_target("getrandom", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\getrandom-0.3.4\\src\\lib.rs", Edition2021) }
+   1.085599900s  INFO prepare_target{force=false package_id=getrandom v0.3.4 target="getrandom"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\getrandom-6b358047e3c9c75d\lib-getrandom`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   1.101532700s  INFO prepare_target{force=false package_id=getrandom v0.3.4 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for getrandom v0.3.4/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\getrandom-0.3.4\\build.rs", Edition2021) }
+   1.101575800s  INFO prepare_target{force=false package_id=getrandom v0.3.4 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\getrandom-1b6e0de25c32b6d3\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_libgit2_prerelease
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: <unknown>
+  25: git_midx_writer_dump
+  26: git_filter_source_repo
+  27: git_midx_writer_dump
+  28: BaseThreadInitThunk
+  29: RtlUserThreadStart
+   1.106695800s  INFO prepare_target{force=false package_id=getrandom v0.3.4 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for getrandom v0.3.4/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\getrandom-0.3.4\\build.rs", Edition2021) }
+   1.106810800s  INFO prepare_target{force=false package_id=getrandom v0.3.4 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\getrandom-0a1eed9e0dde72eb\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_libgit2_prerelease
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: <unknown>
+  25: git_midx_writer_dump
+  26: git_filter_source_repo
+  27: git_midx_writer_dump
+  28: BaseThreadInitThunk
+  29: RtlUserThreadStart
+   1.118589900s  INFO prepare_target{force=false package_id=sha2 v0.10.9 target="sha2"}: cargo::core::compiler::fingerprint: fingerprint error for sha2 v0.10.9/Check { test: false }/TargetInner { ..: lib_target("sha2", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sha2-0.10.9\\src\\lib.rs", Edition2018) }
+   1.118648500s  INFO prepare_target{force=false package_id=sha2 v0.10.9 target="sha2"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\sha2-c8e2893136845cbb\lib-sha2`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.164880300s  INFO prepare_target{force=false package_id=postgres-types v0.2.11 target="postgres_types"}: cargo::core::compiler::fingerprint: fingerprint error for postgres-types v0.2.11/Check { test: false }/TargetInner { ..: lib_target("postgres_types", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\postgres-types-0.2.11\\src\\lib.rs", Edition2021) }
+   1.164921000s  INFO prepare_target{force=false package_id=postgres-types v0.2.11 target="postgres_types"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\postgres-types-7f6d7f50be481bda\lib-postgres_types`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.168258500s  INFO prepare_target{force=false package_id=tokio-util v0.7.17 target="tokio_util"}: cargo::core::compiler::fingerprint: fingerprint error for tokio-util v0.7.17/Check { test: false }/TargetInner { ..: lib_target("tokio_util", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tokio-util-0.7.17\\src\\lib.rs", Edition2021) }
+   1.168299300s  INFO prepare_target{force=false package_id=tokio-util v0.7.17 target="tokio_util"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\tokio-util-42983a0f64b73c1c\lib-tokio_util`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.176968800s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\src\\lib.rs", Edition2021) }
+   1.177058100s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\serde-a8369bf1801d039a\lib-serde`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   1.199141700s  INFO prepare_target{force=false package_id=serde v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\build.rs", Edition2021) }
+   1.199181500s  INFO prepare_target{force=false package_id=serde v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\serde-7c1a4b1d7a604a2d\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.201195700s  INFO prepare_target{force=false package_id=serde v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\build.rs", Edition2021) }
+   1.201252700s  INFO prepare_target{force=false package_id=serde v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\serde-b0806e5dbc3f1cc0\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.211588900s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde_core", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\src\\lib.rs", Edition2021) }
+   1.211640100s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\serde_core-c51413476724ab93\lib-serde_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   1.231130900s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\build.rs", Edition2021) }
+   1.231172800s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\serde_core-b8a8d298619cc78f\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.233203200s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\build.rs", Edition2021) }
+   1.233244400s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\serde_core-ed19056696185879\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.244266300s  INFO prepare_target{force=false package_id=serde_derive v1.0.228 target="serde_derive"}: cargo::core::compiler::fingerprint: fingerprint error for serde_derive v1.0.228/Build/TargetInner { for_host: true, proc_macro: true, ..: lib_target("serde_derive", ["proc-macro"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_derive-1.0.228\\src\\lib.rs", Edition2021) }
+   1.244308200s  INFO prepare_target{force=false package_id=serde_derive v1.0.228 target="serde_derive"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\serde_derive-053ef4974aab8047\lib-serde_derive`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   1.246595900s  INFO prepare_target{force=false package_id=serde_json v1.0.145 target="serde_json"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.145/Check { test: false }/TargetInner { ..: lib_target("serde_json", ["lib"], "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.145\\src\\lib.rs", Edition2021) }
+   1.246637800s  INFO prepare_target{force=false package_id=serde_json v1.0.145 target="serde_json"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\serde_json-466538621e17427d\lib-serde_json`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   1.274158000s  INFO prepare_target{force=false package_id=serde_json v1.0.145 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.145/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.145\\build.rs", Edition2021) }
+   1.274197000s  INFO prepare_target{force=false package_id=serde_json v1.0.145 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\serde_json-f0e9c8da27b12366\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.275453300s  INFO prepare_target{force=false package_id=serde_json v1.0.145 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.145/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\Dishant\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.145\\build.rs", Edition2021) }
+   1.275479700s  INFO prepare_target{force=false package_id=serde_json v1.0.145 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\serde_json-662aa01c091de8e7\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.285712700s  INFO prepare_target{force=false package_id=backend v0.1.0 (\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend) target="backend"}: cargo::core::compiler::fingerprint: fingerprint error for backend v0.1.0 (\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend)/Check { test: true }/TargetInner { name: "backend", doc: true, ..: with_path("\\\\wsl.localhost\\Ubuntu\\home\\nottejas\\rust_projs\\basic_proj\\backend\\src\\main.rs", Edition2024) }
+   1.285751700s  INFO prepare_target{force=false package_id=backend v0.1.0 (\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend) target="backend"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\nottejas\rust_projs\basic_proj\backend\target\debug\.fingerprint\backend-7d360c46b985d3e6\test-bin-backend`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   Compiling typenum v1.19.0
+   Compiling generic-array v0.14.7
+   Compiling getrandom v0.3.4
+   Compiling zerocopy v0.8.30
+   Compiling windows_x86_64_msvc v0.53.1
+   Compiling proc-macro2 v1.0.103
+   Compiling quote v1.0.42
+   Compiling parking_lot_core v0.9.12
+   Compiling serde_core v1.0.228
+   Compiling serde_json v1.0.145
+   Compiling serde v1.0.228
+error: could not compile `windows_x86_64_msvc` (build script) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `generic-array` (build script) due to 1 previous error
+error: could not compile `serde_json` (build script) due to 1 previous error
+error: could not compile `parking_lot_core` (build script) due to 1 previous error
+error: could not compile `quote` (build script) due to 1 previous error
+error: could not compile `getrandom` (build script) due to 1 previous error
+error: could not compile `proc-macro2` (build script) due to 1 previous error
+error: could not compile `serde` (build script) due to 1 previous error
+error: could not compile `serde_core` (build script) due to 1 previous error
+error: could not compile `typenum` (build script) due to 1 previous error
+error: could not compile `zerocopy` (build script) due to 1 previous error
